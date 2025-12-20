@@ -1,0 +1,28 @@
+# --- Python Basics ---
+__pycache__/
+*.py[cod]
+*.so
+
+# --- Virtual Environment ---
+.venv/
+venv/
+env/
+
+# --- Environment Variables (SECRETS) ---
+# NEVER commit API keys or passwords
+.env
+
+# --- Local Memory Database (ChromaDB) ---
+# We do NOT want to push the actual database to GitHub
+# It is heavy and contains private patient data
+my_local_memory/
+
+# --- IDE Settings ---
+.vscode/
+.idea/
+
+# --- Data Ingestion ---
+# Don't push your raw PDF health records
+documents/*.pdf
+documents/*.txt
+documents/*.csv
