@@ -15,8 +15,8 @@ Built with **Python**, **ChromaDB**, and **Ollama**, this agent runs entirely on
 
 * **Brain (agent.py):** [Ollama](https://ollama.com) running `qwen2.5-coder:14b`
 * **Memory (database.py):** [ChromaDB](https://www.trychroma.com/) (Persistent vector storage)
-* **Embeddings:** `sentence-transformers/all-MiniLM-L6-v2`
-* **Data Processing:** Pandas (for Excel/CSV ingestion)
+* **Embeddings (database.py):** `sentence-transformers/all-MiniLM-L6-v2`
+* **Data Processing (ingest.py):** Pandas (for Excel/CSV ingestion)
 * **Orchestrator (main.py):**
 
 ## 📦 Installation
